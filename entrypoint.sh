@@ -19,4 +19,4 @@ if [ -n "${INPUT_EMAILTO}" -a -n "${INPUT_EMAILFROM}"]; then
 	trufflehog $q 
 else
 	trufflehog $q
-
+fi
