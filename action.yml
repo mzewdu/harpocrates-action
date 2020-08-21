@@ -1,0 +1,21 @@
+name: 'Harpocrates Scan'
+description: 'Searches through git repositories for high entropy strings and secrets, digging deep into commit history'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  githubToken:
+    description: 'GitHub Token to access a private repository.'
+    required: false
+  thargs:
+    description: 'Argument options for scan.'
+    required: false
+  emailTo:
+    required: false
+    description: 'Email To Field'
+  emailFrom:
+    required: false
+    description: 'Email From Field'
+branding:
+  icon: 'shield'  
+  color: 'red'

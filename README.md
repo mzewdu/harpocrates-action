@@ -1,1 +1,1 @@
-# harpocrates-action 1.0
+Harpocrates - Trufflehog scan - Github Action
